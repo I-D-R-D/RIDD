@@ -1,13 +1,33 @@
+# phpstorm project files
+.idea
 
-# Created by https://www.gitignore.io/api/vuejs
-# Edit at https://www.gitignore.io/?templates=vuejs
+# netbeans project files
+nbproject
 
-### Vuejs ###
-# Recommended template: Node.gitignore
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
 
-node_modules/
-dist/
-npm-debug.log
-yarn-error.log
+# windows thumbnail cache
+Thumbs.db
 
-# End of https://www.gitignore.io/api/vuejs
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+tests/_output/*
+tests/_support/_generated
+
+#vagrant folder
+/.vagrant
